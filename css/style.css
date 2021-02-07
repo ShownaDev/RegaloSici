@@ -12,7 +12,7 @@ body{
 }
 
 .main_header{
-	height: 85px;
+	height: 60px;
 	width: 100%;
 	background: #F08080;
 	display: flex;
@@ -37,7 +37,7 @@ body{
 .parrafo_scenario{
 	color: #800080;
 	font-family: 'Yusei Magic', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: bold;
 	padding: 20px;
 	text-align: center;
@@ -66,7 +66,6 @@ body{
 .nota_generica{
 	color: #DC143C;
 	font-family: 'Yusei Magic', sans-serif;
-	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
 	padding: 20px;
