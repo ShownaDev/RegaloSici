@@ -14,7 +14,9 @@
 		<header class="main_header">
 			<h2 id="header_title" class="header_title"></h2>
 		</header>
-
+		<div class="scenario_popup_container">
+			<div class="scenario_popup"></div>
+		</div>
 		<!--Scenarios-->
 		<!--
 		|---------------------------|
@@ -23,7 +25,7 @@
 		-->
 		<div id="scenario_1" class="scenario">
 			<p class="parrafo_scenario">No soy muy bueno con las manualidades, pero puedo darte un lindo regalo con lo que sé, no es algo convencional, es con mucho amor. Espero te guste.</p>
-			<img src="img/corazon_con_la_mano.jpg" style="max-width: 40%" class="img_decoration">
+			<img src="img/camila1.jpg" style="max-width: 55%" class="img_decoration">
 			<button type="button" class="button_scenario_next">Empezar</button>
 			<p class="nota_generica">NOTA: Una vez le des al botón de empezar pasarás a las próximas salas (No podrás volver atrás a menos de que refresques la página pero eso te devuelve al inicio).</p>
 		</div>
@@ -34,7 +36,125 @@
 		|---------------------------|
 		-->
 		<div id="scenario_2" class="scenario">
-			<p class="parrafo_scenario">Hola esto es el escenario 2</p>
+			<p class="parrafo_scenario">¿Que es esto? <br> Una experiencia interactiva que he creado para ti, es mejor evitarnos los spoilers, todo es más lindo cuando llega de sorpresa, aunque no soy muy bueno manteniendolas en secreto. En fin, sientate o acuestate y disfruta.</p>
+			<button type="button" class="button_scenario_next">Empiece ya, bobo.</button>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 3		        |
+		|---------------------------|
+		-->
+		<div id="scenario_3" class="scenario">
+			<img src="img/jisoo1.jpg" style="max-width: 60%" class="img_decoration">
+			<p class="parrafo_scenario">Esta sala consistirá en preguntas bastante sencillas para responder, no importa si las contestas bien o mal, disfruta.</p>
+			<button type="button" class="button_scenario_next">Comenzar trivia</button>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 4		        |
+		|---------------------------|
+		-->
+		<div id="scenario_4" class="scenario">
+			<p class="titulo_trivia">Pregunta 1: ¿Quién es tu bias de Blackpink?</p>
+			<div type="text" class="pregunta" valor="0" mensaje="Jajaja, sea seria.">Jisoo</div>
+			<div type="text" class="pregunta" valor="1" 
+			mensaje="¿Muy obvio verdad? Como mi amor por usted.">Rosé</div>
+			<div type="text" class="pregunta" valor="0" mensaje="Jajaja, sea seria.">Lisa</div>
+			<div type="text" class="pregunta" valor="0" mensaje="Jajaja, sea seria.">Jennie</div>
+		</div>
+		<!--
+		|---------------------------|
+		|Escenario 5		        |
+		|---------------------------|
+		-->
+		<div id="scenario_5" class="scenario">
+			<p class="titulo_trivia">Pregunta 2: Si factorizamos (x^2 * (2x + 5)) / 3x tendríamos como resultado:</p>
+			<div type="text" class="pregunta" valor="0" mensaje="¿A quien le importa?">x^2 / 2</div>
+			<div type="text" class="pregunta" valor="1" mensaje="Subale a esa vaina!!!!!">No sé, pongan Bet U Wanna</div>
+			<div type="text" class="pregunta" valor="1" mensaje="Si, definitivamente.">Rosé mi mujer</div>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 6		        |
+		|---------------------------|
+		-->
+		<div id="scenario_6" class="scenario">
+			<p class="titulo_trivia">Pregunta 3: Pipe es:</p>
+			<div type="text" class="pregunta" valor="1" mensaje="Si jejeje.">Distraído y hermoso.</div>
+			<div type="text" class="pregunta" valor="1" mensaje="Pero por usted, mi amor.">Bobo</div>
+			<div type="text" class="pregunta" valor="1" mensaje="Definitivamente, estás en lo correcto.">El amor de mi vida</div>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 7		        |
+		|---------------------------|
+		-->
+		<div id="scenario_7" class="scenario">
+			<p class="titulo_trivia">Pregunta 4: ¿Puedo seguir siendo la persona que te acompañe y apoye en tu vida?</p>
+			<div type="text" class="pregunta" valor="1" mensaje="Si">Si</div>
+			<div type="text" class="pregunta" valor="1" mensaje="Que si >:(">Si pues q mas</div>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 8		        |
+		|---------------------------|
+		-->
+		<div id="scenario_8" class="scenario">
+			<img src="img/rose2.jpg" style="max-width: 50%" class="img_decoration">
+			<p class="parrafo_scenario">¿La vida es mejor con música verdad? Despues de todo, por esto nos conocimos y nos hicimos cercanos. ¿Estás lista?</p>
+			<button type="button" class="button_scenario_next">Entrar al salón de la música</button>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 9		        |
+		|---------------------------|
+		-->
+		<div id="scenario_9" class="scenario">
+			<p class="parrafo_scenario">Canciones de kpop para ti</p>
+			<div class="canciones_container">
+				<!--Feel Special-->
+				<div class="cancion_box">
+					<img src="img/feel_special.jpg" style="max-width: 150px" class="img_decoration">
+					<p class="titulo_cancion">FEEL SPECIAL</p>
+					<button class="why_button" cancion="1">¿Por qué?</button>
+				</div>
+				<!--Red The Rose-->
+				<div class="cancion_box">
+					<img src="img/red_the_rose.jpg" style="max-width: 150px" class="img_decoration">
+					<p class="titulo_cancion">RED</p>
+					<button class="why_button" cancion="2">¿Por qué?</button>
+				</div>
+				<!--About love-->
+				<div class="cancion_box">
+					<img src="img/about_love.jpg" style="max-width: 150px" class="img_decoration">
+					<p class="titulo_cancion">ABOUT LOVE</p>
+					<button class="why_button" cancion="3">¿Por qué?</button>
+				</div>
+				<!--Bet U Wanna-->
+				<div class="cancion_box">
+					<img src="img/the_album.jpg" style="max-width: 150px" class="img_decoration">
+					<p class="titulo_cancion">BET U WANNA</p>
+					<button class="why_button" cancion="4">¿Por qué?</button>
+				</div>
+			</div>
+			<button type="button" class="button_scenario_next" style="margin-top: 10px;">Ver más canciones</button>
+		</div>
+
+		<!--
+		|---------------------------|
+		|Escenario 10		        |
+		|---------------------------|
+		-->
+		<div id="scenario_10" class="scenario">
+			<img src="img/727.jpg" style="max-width: 50%" class="img_decoration">
+			<p class="parrafo_scenario">Recuerdo cuando me recomendaste este albúm, yo no conocía mucho a Fifth Harmony, pero ese día compartiste un pedacito de ti, me pone contento ver la euforia que genera recordarlas y es un gran albúm, de mis favoritos ahora.</p>
+			<button type="button" class="button_scenario_next">Ver más canciones</button>
 		</div>
 	</main>
 
