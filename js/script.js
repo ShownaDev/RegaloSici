@@ -7,7 +7,9 @@ $( document ).ready(function() {
     	"¿Lista?",
     	"Salón de la trivia",
     	"Trivia 1", "Trivia 2", "Trivia 3", "Trivia 4",
-    	"Salón de la música", "Kpop", "Albúm recuerdo"
+    	"Salón de la música", "Kpop", "Albúm recuerdo", "Canción recuerdo", 
+    	"Camila Cabello", "Escritos para ti", "¿Que implica querer?", "¿Por que a ti?",
+    	"Todo es mas lindo", "Adversidades", "Experiencias hermosas", "Final"
     ]
 
     if(scenario_number == 1){
@@ -65,12 +67,32 @@ $( document ).ready(function() {
 			case "2":
 				reason_text = '<p class="classic_text">Los conocí por ti y por esa misma razón me recuerdan a ' + 
     			'ti, su canción más icónica para mi es esta, Red.</p>';
+    			break;
     		case "3":
     			reason_text = '<p class="classic_text">Mi canción favorita de Red Velvet, escucharla es pensar ' + 
     			'acerca del amor, justo lo que  siento por ti.</p>';
+    			break;
     		case "4":
     			reason_text = '<p class="classic_text">Me pasa igual que con Red, es una canción que me recuerda ' + 
     			'a ti, porque me mencionaste que te hace feliz y me encanta verte así.</p>';
+    			break;
+    		case "5":
+    			reason_text = '<p class="classic_text">Una sencilla frase que me dijiste y me hizo sentir feliz, ' + 
+    			'"Me haces sentir como Easy de Camila".</p>';
+    			break;
+    		case "6":
+    			reason_text = '<p class="classic_text">Mi canción favorita de Camila y la que mas tengo en mi ' + 
+    			'corazón, así como a ti.</p>';
+    			break;
+    		
+    		case "7":
+    			reason_text = '<p class="classic_text">"There is God in every move, ooh" <br>' + 
+    			'"And you are the living proof (oh)".</p>';
+    			break;
+    		case "8":
+    			reason_text = '<p class="classic_text">"No, I never liked windy cities <br>' + 
+    			'"But I think maybe when you are with me" <br> "I like everywhere".</p>';
+    			break;
     	}
 
     	reason_text += '<button class="cerrar_popup">Cerrar<button>';
